@@ -1,3 +1,3 @@
 git add --all
-git commit -m "[Bug] Writing error"
+git commit -m "Line correction"
 git push -u origin master
