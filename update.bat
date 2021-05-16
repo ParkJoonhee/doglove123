@@ -1,3 +1,3 @@
 git add --all
-git commit -m "start recipe website"
+git commit -m "[Bug] Writing error"
 git push -u origin master
