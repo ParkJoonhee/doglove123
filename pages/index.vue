@@ -1,65 +1,21 @@
 <template>
-  <section class="container">
+  <main>
+    <div><h1>간단한 생활요리</h1></template>div>
+    <div><h2>집에서 간단히 해먹을수 있는 생활요리 레시피</h2></div>
+  </main>
+  <main>
+    <div><h3>김치찌개</h3><br><br><h4>재료(2인분 기준)</h4></div>
     <div>
-      <app-logo/>
-      <h1 class="title">
-        doglove123
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
+      돼지고기 120g, 쌀뜨물 380ml (약 2컵), 자른 김치 150g, 다진마늘 30g (2큰술), 대파 30g, 청양고추 10g, 홍고추 10g, 고운 고춧가루 30g (2큰술), 굵은 고춧가루 30g (2큰술), 국간장 15ml (1큰술), 새우젓 15g (1큰술)<br>
     </div>
-  </section>
+    <div><h4>레시피</h4><br></div>
+    <div>
+      1. 대파와 고추는 송송 썰어 준비합니다.<br>
+      2. 냄비에 목살과 쌀뜨물을 넣고 충분히 끓여, 고기 육수를 우려냅니다.<br>
+      3. 고기 육수가 충분히 우러나면 김치와 다진마늘을 넣습니다.<br>
+      4. 국물이 끓어오르면 대파와 고추를 넣습니다.<br>
+      5. 고춧가루를 넣고 잘 섞습니다. 굵은 고춧가루와 고운 고춧가루를 반씩 섞어 넣으면 더욱 좋습니다.<br>
+      6. 국간장과 새우젓을 넣고 잘 저어 줍니다.<br>
+    </div>
+  </main>
 </template>
-
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
-
