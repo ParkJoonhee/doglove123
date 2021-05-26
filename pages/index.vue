@@ -21,8 +21,8 @@
             <button class="delete" aria-label="delete"></button>
           </div>
           <div class="message-body">
-            <figure class="image is-128x128">
-              <img src="~assets/김치찌개.jpg">
+            <figure>
+              <img src="~static/김치찌개.jpg">
             </figure>
             <p>
               1. 대파와 고추는 송송 썰어 준비합니다.<br>
