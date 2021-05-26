@@ -3,10 +3,10 @@
     <section class="hero is-primary">
       <div class="hero-body">
         <p class="title">
-          간단한 생활요리
+          간단한 생활요리<i class="fas fa-drumstick-bite"></i>
         </p>
         <p class="subtitle">
-          집에서 간단히 해먹을수 있는 생활요리 레시피
+          <i class="fas fa-home"></i>집에서 간단히 해 먹을 수 있는 생활 요리 레시피<i class="fas fa-scroll"></i>
         </p>
       </div>
     </section>
