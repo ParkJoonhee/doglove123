@@ -1,3 +1,3 @@
 git add --all
-git commit -m "add Kimchi stew photos"
+git commit -m "add nav & footer"
 git push -u origin master
