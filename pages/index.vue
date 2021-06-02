@@ -14,10 +14,7 @@
       <div class="column">
         <article class="message">
           <div class="message-header">
-            <p>김치찌개<br><br>
-              재료(2인분 기준)<br>
-              돼지고기 120g, 쌀뜨물 380ml (약 2컵), 자른 김치 150g, 다진마늘 30g (2큰술), 대파 30g, 청양고추 10g, 홍고추 10g, 고운 고춧가루 30g (2큰술), 굵은 고춧가루 30g (2큰술), 국간장 15ml (1큰술), 새우젓 15g (1큰술)
-            </p>
+            <p>김치찌개</p>
             <button class="delete" aria-label="delete"></button>
           </div>
           <div class="message-body">
@@ -33,6 +30,62 @@
               6. 국간장과 새우젓을 넣고 잘 저어 줍니다.<br>
             </p>
           </div>
+        </article>
+        <article class="notification">
+          <table class="table is-striped is-hoverable is-fullwidth">
+            <thead>
+              <tr>
+                <th>재료 <small>(2인분 기준)</small></th>
+                <th>용량</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>돼지고기</td>
+                <td>120g</td>
+              </tr>
+              <tr>
+                <td>쌀뜨물</td>
+                <td>380ml <small>(약 2컵)</small></td>
+              </tr>
+              <tr>
+                <td>자른 김치</td>
+                <td>150g</td>
+                </tr>
+                <tr>
+                <td>다진마늘</td>
+                <td>30g <small>(2큰술)</small></td>
+                </tr>
+                <tr>
+                <td>대파</td>
+                <td>30g</td>
+                </tr>
+                <tr>
+                <td>청양고추</td>
+                <td>10g</td>
+                </tr>
+                <tr>
+                <td>홍고추</td>
+                <td>10g</td>
+                </tr>
+                <tr>
+                <td>고운 고춧가루</td>
+                <td>30g <small>(2큰술)</small></td>
+                </tr>
+                <tr>
+                <td>굵은 고춧가루</td>
+                <td>30g <small>(2큰술)</small></td>
+                </tr>
+                <tr>
+                <td>국간장</td>
+                <td>15ml <small>(1큰술)</small></td>
+                </tr>
+                <tr>
+                <td>새우젓</td>
+                <td>15g <small>(1큰술)</small></td>
+                </tr>
+            </tbody>
+          </table>
         </article>
       </div>
     </div>
