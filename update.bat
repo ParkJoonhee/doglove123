@@ -1,3 +1,3 @@
 git add --all
-git commit -m "Modify tables for Kimchi stew info"
+git commit -m "create kongnamulbulgogi.vue"
 git push -u origin master

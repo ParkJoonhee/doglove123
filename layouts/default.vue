@@ -2,7 +2,12 @@
   <div>
     <nav class="breadcrumb">
       <ul>
-        <li><nuxt-link to="/"><i class="fas fa-home"></i>홈으로</nuxt-link></li>
+        <li>
+          <nuxt-link to="/"><i class="fas fa-home"></i>홈으로</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/kongnamulbulgogi"><i class="far fa-file"></i>콩나물 불고기</nuxt-link>
+        </li>
       </ul>
     </nav>
     <nuxt/>

@@ -20,8 +20,9 @@
           <div class="notification">
             <table class="table is-striped is-hoverable is-fullwidth">
               <thead>
-                <tr>
+                <tr class="is-selected">
                   <th>재료 <small>(2인분 기준)</small></th>
+                  <th></th><th></th><th></th>
                 </tr>
                 <tr>
                   <th>종류</th>
