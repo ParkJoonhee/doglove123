@@ -1,3 +1,3 @@
 git add --all
-git commit -m "create kongnamulbulgogi.vue"
+git commit -m "add tables for kongnamulbulgogi"
 git push -u origin master

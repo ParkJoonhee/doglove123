@@ -36,13 +36,13 @@
                   <td>돼지고기</td>
                   <td>120g</td>
                   <td>쌀뜨물</td>
-                  <td>380ml <small>(약 2컵)</small></td>
+                  <td>380ml (약 2컵)</td>
                 </tr>
                 <tr>
                   <td>자른 김치</td>
                   <td>150g</td>
                   <td>다진마늘</td>
-                  <td>30g <small>(2큰술)</small></td>
+                  <td>30g (2큰술)</td>
                 </tr>
                 <tr>
                   <td>대파</td>
@@ -54,17 +54,17 @@
                   <td>홍고추</td>
                   <td>10g</td>
                   <td>고운 고춧가루</td>
-                  <td>30g <small>(2큰술)</small></td>
+                  <td>30g (2큰술)</td>
                 </tr>
                 <tr>
                   <td>굵은 고춧가루</td>
-                  <td>30g <small>(2큰술)</small></td>
+                  <td>30g (2큰술)</td>
                   <td>국간장</td>
-                  <td>15ml <small>(1큰술)</small></td>
+                  <td>15ml (1큰술)</td>
                 </tr>
                 <tr>
                   <td>새우젓</td>
-                  <td>15g <small>(1큰술)</small></td>
+                  <td>15g (1큰술)</td>
                 </tr>
               </tbody>
             </table>
@@ -83,6 +83,12 @@
             </p>
           </div>
         </article>
+        <div class="content">
+          <span class="tag is-danger">출처</span>
+          <a href="https://youtu.be/DnQ09ZZCjCs"
+            >백종원의 요리비책 Paik's Cuisine</a
+          >
+        </div>
       </div>
     </div>
   </div>
