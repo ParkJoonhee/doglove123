@@ -19,8 +19,8 @@
     import axios from 'axios';
     export default {
         async asyncData() {
-            const eomukbokkeum = await axios.get('https://github.com/ParkJoonhee/doglove123/blob/master/assets/eomukbokkeumMaterials.json');
-            alert(Object.keys(eomukbokkeum));
+            const eomukbokkeumMaterials = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/assets/eomukbokkeumMaterials.json');
+            //alert(Object.keys(eomukbokkeumMaterials));
         }
     };
 </script>
