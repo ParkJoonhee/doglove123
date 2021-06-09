@@ -8,6 +8,9 @@
         <li>
           <nuxt-link to="/kongnamulbulgogi"><i class="far fa-file"></i>콩나물 불고기</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/eomukbokkeum"><i class="far fa-file"></i>어묵감자볶음</nuxt-link>
+        </li>
       </ul>
     </nav>
     <nuxt/>
