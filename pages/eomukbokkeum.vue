@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-link">
+        <section class="hero is-warning">
             <div class="hero-body">
                 <p class="title">
                     간단한 생활요리<i class="fas fa-drumstick-bite"></i>
@@ -18,3 +18,8 @@
         </section>
     </div>
 </template>
+
+<script>
+    import axios from 'axios';
+    export default {};
+</script>
