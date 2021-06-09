@@ -1,4 +1,4 @@
 chcp 65001
 git add --all
-git commit -m "Modify eomukbokkeumMaterials.json"
+git commit -m "modify eomukbokkeum.vue"
 git push -u origin master
