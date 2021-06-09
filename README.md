@@ -1,6 +1,10 @@
-# doglove123
+# 간단한 생활요리
+> 집에서 간단히 해 먹을 수 있는 생활 요리 레시피
 
-> Nuxt.js project
+# Website Domain Name
+
+> https://www.doglove123.tk/
+> https://wonderful-lewin-1fa0f1.netlify.app
 
 ## Build Setup
 
