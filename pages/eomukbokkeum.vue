@@ -11,15 +11,16 @@
             </div>
         </section>
         <section class="columns">
-            <div class="column">
-            </div>
-            <div class="column">
-            </div>
         </section>
     </div>
 </template>
 
 <script>
     import axios from 'axios';
-    export default {};
+    export default {
+        async asyncData() {
+            const eomukbokkeum = await axios.get('https://github.com/ParkJoonhee/doglove123/blob/master/assets/eomukbokkeumMaterials.json');
+            alert(Object.keys(eomukbokkeum));
+        }
+    };
 </script>
