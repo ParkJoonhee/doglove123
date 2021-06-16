@@ -11,6 +11,10 @@
         <li>
           <nuxt-link to="/eomukbokkeum"><i class="far fa-file"></i>어묵감자볶음</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/menuchart"><i class="fas fa-chart-pie"></i>메뉴차트</nuxt-link>
+        </li>
+        
       </ul>
     </nav>
     <nuxt/>
