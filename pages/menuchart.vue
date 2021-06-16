@@ -13,7 +13,7 @@
         <hr/>
         <section class="columns">
 			<div class="column">
-				<div id="chart"></div>
+				<div id="lineChart"></div>
 			</div>
 			<div class="column"></div>
 		</section>
@@ -25,8 +25,8 @@
 	export default {
 		mounted() {
 			if (!showChart && process.client) {
-				toastuiChart();
-                showChart = true;
+				if (!toastuiChart('lineChart')) return;
+				showChart = true;
 			}
 		},
         destroyed() {

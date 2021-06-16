@@ -1,5 +1,7 @@
-export default function() {
-	const el = document.getElementById('chart');
+export default function(elName) {
+	if (typeof elName != 'string') return false;
+	const el = document.getElementById(elName);
+	if (el == null || el == undefined) return false;
 	const data = {
 		categories: ['Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], // y-axis
 		series: [
@@ -22,5 +24,6 @@ export default function() {
 		chart: { width: 700, height: 400 },
 	};
 
-	toastui.Chart.barChart({ el, data, options });
+	toastui.Chart.lineChart({ el, data, options });
+	return true;
 }
