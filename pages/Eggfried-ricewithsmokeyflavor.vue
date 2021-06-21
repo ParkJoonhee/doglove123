@@ -70,7 +70,7 @@
     import axios from 'axios';
     export default {
         async asyncData() {
-            const tteokbokkeumbap = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/Egg fried-rice with smokey flavor Materials.json');
+            const tteokbokkeumbap = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/Eggfried-ricewithsmokeyflavorMaterials.json');
             //alert(Object.keys(eomukbokkeum));
             return {
               tabletteokbokkeumbapMaterials: tteokbokkeumbap.data.materials,
