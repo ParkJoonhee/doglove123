@@ -42,7 +42,7 @@
                 </div>
                 <div class="message-body">
                   <figure>
-                    <img src="~/static/tabletabletteokbokki.jpg">
+                    <img src="~/static/불맛달걀볶음밥.jpg">
                   </figure>
                   <p>
                     1. 대파는 송송 썰어 준비한다.<br>

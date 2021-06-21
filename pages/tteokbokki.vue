@@ -22,7 +22,13 @@
                 <table class="table is-striped is-hoverable is-fullwidth">
                     <thead>
                         <tr class="is-selected">
-                            <th>재료 <small>(4인분 기준)</small></th>
+                            <th>재료</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th>볶음</th>
                             <th></th>
                             <th>양념장</th>
                             <th></th>

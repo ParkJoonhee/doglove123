@@ -25,9 +25,9 @@
                                 <th></th><th></th><th></th>
                             </tr>
                             <tr>
-                                <th>양념장</th>
-                                <th></th>
                                 <th>볶음</th>
+                                <th></th>
+                                <th>양념장</th>
                                 <th></th>
                             </tr>
                             <tr>
@@ -40,10 +40,10 @@
                         <tbody>
                           <template v-for="pos in tablekongnamulbulgogistirfryMaterials.length">
                             <tr :key="pos">
-                              <td>{{ tablekongnamulbulgogiSauceMaterials[pos - 1] }}</td>
-                              <td>{{ tablekongnamulbulgogiSauceVolume[pos - 1] }}</td>
                               <td>{{ tablekongnamulbulgogistirfryMaterials[pos - 1] }}</td>
                               <td>{{ tablekongnamulbulgogistirfryVolume[pos - 1] }}</td>
+                              <td>{{ tablekongnamulbulgogiSauceMaterials[pos - 1] }}</td>
+                              <td>{{ tablekongnamulbulgogiSauceVolume[pos - 1] }}</td>
                             </tr>
                           </template>
                         </tbody>
