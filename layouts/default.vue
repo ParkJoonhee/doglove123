@@ -17,6 +17,9 @@
         <li>
           <nuxt-link to="/Eggfried-ricewithsmokeyflavor"><i class="far fa-file"></i>불맛 달걀볶음밥</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/hyeolchibokkeum"><i class="far fa-file"></i>멸치볶음</nuxt-link>
+        </li>
         
       </ul>
     </nav>

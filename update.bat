@@ -1,4 +1,4 @@
 chcp 65001
 git add --all
-git commit -m "[Bug] Writing error"
+git commit -m "add hyeolchibokkeum.vue"
 git push -u origin master
