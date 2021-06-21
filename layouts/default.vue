@@ -14,6 +14,9 @@
         <li>
           <nuxt-link to="/tteokbokki"><i class="far fa-file"></i>떡볶이</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/Egg fried-rice with smokey flavor"><i class="far fa-file"></i>떡볶이</nuxt-link>
+        </li>
         
       </ul>
     </nav>

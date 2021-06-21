@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-warning">
+        <section class="hero is-success">
             <div class="hero-body">
                 <p class="title">
                     간단한 생활요리<i class="fas fa-drumstick-bite"></i>
