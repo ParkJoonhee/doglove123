@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-light">
+        <section class="hero is-dark">
             <div class="hero-body">
                 <p class="title">
                     간단한 생활요리<i class="fas fa-drumstick-bite"></i>
@@ -26,7 +26,7 @@
                         </tr>
                         <tr>
                             <th>종류</th>
-                            <th>용량</th>\
+                            <th>용량</th>
                         </tr>
                     </thead>
                     <tbody>
