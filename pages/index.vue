@@ -14,80 +14,95 @@
       <div class="column">
         <article class="message">
           <div class="message-header">
-            <p>김치찌개 <i class="fas fa-pepper-hot"></i></p>
-            <button class="delete" aria-label="delete"></button>
+            <p>메뉴</p>
           </div>
           <div class="notification">
-            <table class="table is-striped is-hoverable is-fullwidth">
-              <thead>
-                <tr class="is-selected">
-                  <th>재료 <small>(2인분 기준)</small></th>
-                  <th></th><th></th><th></th>
-                </tr>
-                <tr>
-                  <th>종류</th>
-                  <th>용량</th>
-                  <th>종류</th>
-                  <th>용량</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>돼지고기</td>
-                  <td>120g</td>
-                  <td>쌀뜨물</td>
-                  <td>380ml (약 2컵)</td>
-                </tr>
-                <tr>
-                  <td>자른 김치</td>
-                  <td>150g</td>
-                  <td>다진마늘</td>
-                  <td>30g (2큰술)</td>
-                </tr>
-                <tr>
-                  <td>대파</td>
-                  <td>30g</td>
-                  <td>청양고추</td>
-                  <td>10g</td>
-                </tr>
-                <tr>
-                  <td>홍고추</td>
-                  <td>10g</td>
-                  <td>고운 고춧가루</td>
-                  <td>30g (2큰술)</td>
-                </tr>
-                <tr>
-                  <td>굵은 고춧가루</td>
-                  <td>30g (2큰술)</td>
-                  <td>국간장</td>
-                  <td>15ml (1큰술)</td>
-                </tr>
-                <tr>
-                  <td>새우젓</td>
-                  <td>15g (1큰술)</td>
-                </tr>
-              </tbody>
+            <table class="table is-striped is-hoverable">
+              <tr>
+                <td>
+                  <a href="kimchi-jjigae">
+                    <figure>
+                      <img src="~/static/김치찌개(480X480).jpg">
+                    </figure>
+                    김치찌개
+                  </a>
+                </td>
+                <td>
+                  <a href="beefandradishsoup">
+                    <figure>
+                      <img src="~/static/소고기뭇국(480X480).jpg">
+                    </figure>
+                    소고기뭇국
+                  </a>
+                </td>
+                <td>
+                  <a href="beefbulgogi">
+                    <figure>
+                      <img src="~/static/소불고기(480X480).jpg">
+                    </figure>
+                    소불고기
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="kongnamulbulgogi">
+                    <figure>
+                      <img src="~/static/콩나물 불고기(480X480).jpg">
+                    </figure>
+                    콩나물 불고기
+                  </a>
+                </td>
+                <td>
+                  <a href="tteokbokki">
+                    <figure>
+                      <img src="~/static/떡볶이(480X480).jpg">
+                    </figure>
+                    떡볶이
+                  </a>
+                </td>
+                <td>
+                  <a href="Eggfried-ricewithsmokeyflavor">
+                    <figure>
+                      <img src="~/static/불맛달걀볶음밥(480X480).jpg">
+                    </figure>
+                    불맛 달걀볶음밥
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="eomukbokkeum">
+                    <figure>
+                      <img src="~/static/어묵감자볶음(480X480).jpg">
+                    </figure>
+                    어묵감자볶음
+                  </a>
+                </td>
+                <td>
+                  <a href="hyeolchibokkeum">
+                    <figure>
+                      <img src="~/static/멸치볶음(간장)(480X480).jpg">
+                    </figure>
+                    멸치볶음
+                  </a>
+                </td>
+                <td>
+                  <a href="dubujorim">
+                    <figure>
+                      <img src="~/static/두부조림(480X480).jpg">
+                    </figure>
+                    두부조림
+                  </a>
+                </td>
+              </tr>
             </table>
-          </div>
-          <div class="message-body">
-            <figure>
-              <img src="~static/김치찌개.jpg">
-            </figure>
-            <p>
-              1. 대파와 고추는 송송 썰어 준비합니다.<br>
-              2. 냄비에 목살과 쌀뜨물을 넣고 충분히 끓여, 고기 육수를 우려냅니다.<br>
-              3. 고기 육수가 충분히 우러나면 김치와 다진마늘을 넣습니다.<br>
-              4. 국물이 끓어오르면 대파와 고추를 넣습니다.<br>
-              5. 고춧가루를 넣고 잘 섞습니다. 굵은 고춧가루와 고운 고춧가루를 반씩 섞어 넣으면 더욱 좋습니다.<br>
-              6. 국간장과 새우젓을 넣고 잘 저어 줍니다.<br>
-            </p>
           </div>
         </article>
         <div class="content">
-          <span class="tag is-danger">출처</span>
-          <a href="https://youtu.be/DnQ09ZZCjCs"
-            >백종원의 요리비책 Paik's Cuisine</a
-          >
+          <span class="tag is-danger is-light">출처</span>
+          <a href="https://www.youtube.com/channel/UCyn-K7rZLXjGl7VXGweIlcA"
+            >백종원의 요리비책 Paik's Cuisine</a>
         </div>
       </div>
     </div>

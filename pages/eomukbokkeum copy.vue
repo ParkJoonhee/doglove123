@@ -64,7 +64,7 @@
                 </div>
             </article>
             <div class="content">
-              <span class="tag is-danger is-light">출처</span>
+              <span class="tag is-danger">출처</span>
               <a href="https://youtu.be/mo8ogr40m4o"
                 >백종원의 요리비책 Paik's Cuisine
               </a>
