@@ -63,8 +63,8 @@
             </article>
             <div class="content">
               <span class="tag is-danger is-light">출처</span>
-              <a href="https://youtu.be/kR77WlHRZrs"
-                >백종원의 요리비책 Paik's Cuisine
+              <a href="https://youtu.be/kR77WlHRZrs">
+                백종원의 요리비책 Paik's Cuisine
               </a>
             </div>
           </div>
@@ -76,7 +76,7 @@
     import axios from 'axios';
     export default {
         async asyncData() {
-            const bokkeumbap = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/Eggfried-ricewithsmokeyflavorMaterials.json');
+            const bokkeumbap = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/eggfried-ricewithsmokeyflavorMaterials.json');
             //alert(Object.keys(eomukbokkeum));
             return {
               tablebokkeumbapMaterials: bokkeumbap.data.materials,
