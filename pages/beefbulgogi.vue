@@ -26,6 +26,12 @@
                             <th></th><th></th><th></th>
                         </tr>
                         <tr>
+                            <th>소불고기 재료</th>
+                            <th></th>
+                            <th>양념장 재료</th>
+                            <th></th>
+                        </tr>
+                        <tr>
                             <th>종류</th>
                             <th>용량</th>
                             <th>종류</th>
