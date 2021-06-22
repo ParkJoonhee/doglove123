@@ -9,6 +9,9 @@
           <nuxt-link to="/kongnamulbulgogi"><i class="far fa-file"></i>콩나물 불고기</nuxt-link>
         </li>
         <li>
+          <nuxt-link to="/dubujorim"><i class="far fa-file"></i>두부조림</nuxt-link>
+        </li>
+        <li>
           <nuxt-link to="/tteokbokki"><i class="far fa-file"></i>떡볶이</nuxt-link>
         </li>
         <li>
