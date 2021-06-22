@@ -12,7 +12,6 @@
         </section>
         <section class="columns">
           <div class="column">
-            
             <article class="message">
               <div class="message-header">
                 <p>불맛 달걀볶음밥</p>
@@ -23,9 +22,7 @@
                     <thead>
                         <tr class="is-selected">
                             <th>재료</th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
+                            <th></th><th></th><th></th>
                         </tr>
                         <tr>
                             <th>종류</th>
@@ -37,9 +34,9 @@
                     <tbody>
                       <template v-for="pos in tablebokkeumbapMaterialsKeys.length">
                         <tr :key="pos">
-                          <td>{{ tablebokkeumbapMaterialsMaterials[pos - 1] }}</td>
+                          <td>{{ tablebokkeumbapMaterials[pos - 1] }}</td>
                           <td>{{ tablebokkeumbapvolume[pos - 1] }}</td>
-                          <td>{{ tablebokkeumbapMaterialsMaterials2[pos - 1] }}</td>
+                          <td>{{ tablebokkeumbapMaterials2[pos - 1] }}</td>
                           <td>{{ tablebokkeumbapvolume2[pos - 1] }}</td>
                         </tr> 
                       </template>
@@ -76,18 +73,18 @@
     import axios from 'axios';
     export default {
         async asyncData() {
-            const bokkeumbap = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/eggfried-ricewithsmokeyflavorMaterials.json');
+            const bokkeumbapMaterials = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/eggfried-ricewithsmokeyflavorMaterials.json');
             //alert(Object.keys(eomukbokkeum));
             return {
-              tablebokkeumbapMaterials: bokkeumbap.data.materials,
-              tablebokkeumbapMaterialsKeys: Object.keys(bokkeumbap.data.materials),
-              tablebokkeumbapvolume: bokkeumbap.data.volume,
-              tablebokkeumbapvolumeKeys: Object.keys(bokkeumbap.data.volume),
-              tablebokkeumbapMaterials2: bokkeumbap.data.materials2,
-              tablebokkeumbapMaterialsKeys2: Object.keys(bokkeumbap.data.materials2),
-              tablebokkeumbapvolume2: bokkeumbap.data.volume2,
-              tablebokkeumbapvolumeKeys2: Object.keys(bokkeumbap.data.volume2)
-			};
+              tablebokkeumbapMaterials: bokkeumbapMaterials.data.materials,
+              tablebokkeumbapMaterialsKeys: Object.keys(bokkeumbapMaterials.data.materials),
+              tablebokkeumbapvolume: bokkeumbapMaterials.data.volume,
+              tablebokkeumbapvolumeKeys: Object.keys(bokkeumbapMaterials.data.volume),
+              tablebokkeumbapMaterials2: bokkeumbapMaterials.data.materials2,
+              tablebokkeumbapMaterialsKeys2: Object.keys(bokkeumbapMaterials.data.materials2),
+              tablebokkeumbapvolume2: bokkeumbapMaterials.data.volume2,
+              tablebokkeumbapvolumeKeys2: Object.keys(bokkeumbapMaterials.data.volume2)
+			      };
         }
     };
 </script>
