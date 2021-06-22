@@ -22,11 +22,9 @@
                     <thead>
                         <tr class="is-selected">
                             <th>재료</th>
-                            <th></th><th></th><th></th>
+                            <th></th>
                         </tr>
                         <tr>
-                            <th>종류</th>
-                            <th>용량</th>
                             <th>종류</th>
                             <th>용량</th>
                         </tr>
@@ -36,8 +34,6 @@
                         <tr :key="pos">
                           <td>{{ tablebokkeumbapMaterials[pos - 1] }}</td>
                           <td>{{ tablebokkeumbapvolume[pos - 1] }}</td>
-                          <td>{{ tablebokkeumbapMaterials2[pos - 1] }}</td>
-                          <td>{{ tablebokkeumbapvolume2[pos - 1] }}</td>
                         </tr> 
                       </template>
                     </tbody>
@@ -79,11 +75,7 @@
             tablebokkeumbapMaterials: bokkeumbapMaterials.data.materials,
             tablebokkeumbapmaterialsKeys: Object.keys(bokkeumbapMaterials.data.materials),
             tablebokkeumbapvolume: bokkeumbapMaterials.data.volume,
-            tablebokkeumbapvolumeKeys: Object.keys(bokkeumbapMaterials.data.volume),
-            tablebokkeumbapmaterials2: bokkeumbapMaterials.data.materials2,
-            tablebokkeumbapmaterialsKeys2: Object.keys(bokkeumbapMaterials.data.materials2),
-            tablebokkeumbapvolume2: bokkeumbapMaterials.data.volume2,
-            tablebokkeumbapvolumeKeys2: Object.keys(bokkeumbapMaterials.data.volume2)
+            tablebokkeumbapvolumeKeys: Object.keys(bokkeumbapMaterials.data.volume)
           };
       }
   };

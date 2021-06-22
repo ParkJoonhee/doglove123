@@ -62,7 +62,7 @@
                   </a>
                 </td>
                 <td>
-                  <a href="Eggfried-ricewithsmokeyflavor">
+                  <a href="bokkeumbap">
                     <figure>
                       <img src="~/static/불맛달걀볶음밥(480X480).jpg">
                     </figure>
