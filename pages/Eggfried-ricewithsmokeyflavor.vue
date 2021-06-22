@@ -35,6 +35,8 @@
                         <tr :key="pos">
                           <td>{{ tabletteokbokkeumbapMaterials[pos - 1] }}</td>
                           <td>{{ tabletteokbokkeumbapvolume[pos - 1] }}</td>
+                          <td>{{ tabletteokbokkeumbapMaterials2[pos - 1] }}</td>
+                          <td>{{ tabletteokbokkeumbapvolume2[pos - 1] }}</td>
                         </tr> 
                       </template>
                     </tbody>
@@ -76,7 +78,11 @@
               tabletteokbokkeumbapMaterials: tteokbokkeumbap.data.materials,
               tabletteokbokkeumbapMaterialsKeys: Object.keys(tteokbokkeumbap.data.materials),
               tabletteokbokkeumbapvolume: tteokbokkeumbap.data.volume,
-              tabletteokbokkeumbapvolumeKeys: Object.keys(tteokbokkeumbap.data.volume)
+              tabletteokbokkeumbapvolumeKeys: Object.keys(tteokbokkeumbap.data.volume),
+              tabletteokbokkeumbapMaterials2: tteokbokkeumbap.data.materials2,
+              tabletteokbokkeumbapMaterialsKeys2: Object.keys(tteokbokkeumbap.data.materials2),
+              tabletteokbokkeumbapvolume2: tteokbokkeumbap.data.volume2,
+              tabletteokbokkeumbapvolumeKeys2: Object.keys(tteokbokkeumbap.data.volume2)
 			};
         }
     };
