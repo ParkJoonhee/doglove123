@@ -24,19 +24,23 @@
                         <tr class="is-selected">
                             <th>재료</th>
                             <th></th>
+                            <th></th>
+                            <th></th>
                         </tr>
                         <tr>
+                            <th>종류</th>
+                            <th>용량</th>
                             <th>종류</th>
                             <th>용량</th>
                         </tr>
                     </thead>
                     <tbody>
-                      <template v-for="pos in tabletteokbokkeumbapMaterialsKeys.length">
+                      <template v-for="pos in tablebokkeumbapMaterialsKeys.length">
                         <tr :key="pos">
-                          <td>{{ tabletteokbokkeumbapMaterials[pos - 1] }}</td>
-                          <td>{{ tabletteokbokkeumbapvolume[pos - 1] }}</td>
-                          <td>{{ tabletteokbokkeumbapMaterials2[pos - 1] }}</td>
-                          <td>{{ tabletteokbokkeumbapvolume2[pos - 1] }}</td>
+                          <td>{{ tablebokkeumbapMaterialsMaterials[pos - 1] }}</td>
+                          <td>{{ tablebokkeumbapvolume[pos - 1] }}</td>
+                          <td>{{ tablebokkeumbapMaterialsMaterials2[pos - 1] }}</td>
+                          <td>{{ tablebokkeumbapvolume2[pos - 1] }}</td>
                         </tr> 
                       </template>
                     </tbody>
@@ -72,17 +76,17 @@
     import axios from 'axios';
     export default {
         async asyncData() {
-            const tteokbokkeumbap = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/Eggfried-ricewithsmokeyflavorMaterials.json');
+            const bokkeumbap = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/Eggfried-ricewithsmokeyflavorMaterials.json');
             //alert(Object.keys(eomukbokkeum));
             return {
-              tabletteokbokkeumbapMaterials: tteokbokkeumbap.data.materials,
-              tabletteokbokkeumbapMaterialsKeys: Object.keys(tteokbokkeumbap.data.materials),
-              tabletteokbokkeumbapvolume: tteokbokkeumbap.data.volume,
-              tabletteokbokkeumbapvolumeKeys: Object.keys(tteokbokkeumbap.data.volume),
-              tabletteokbokkeumbapMaterials2: tteokbokkeumbap.data.materials2,
-              tabletteokbokkeumbapMaterialsKeys2: Object.keys(tteokbokkeumbap.data.materials2),
-              tabletteokbokkeumbapvolume2: tteokbokkeumbap.data.volume2,
-              tabletteokbokkeumbapvolumeKeys2: Object.keys(tteokbokkeumbap.data.volume2)
+              tablebokkeumbapMaterials: bokkeumbap.data.materials,
+              tablebokkeumbapMaterialsKeys: Object.keys(bokkeumbap.data.materials),
+              tablebokkeumbapvolume: bokkeumbap.data.volume,
+              tablebokkeumbapvolumeKeys: Object.keys(bokkeumbap.data.volume),
+              tablebokkeumbapMaterials2: bokkeumbap.data.materials2,
+              tablebokkeumbapMaterialsKeys2: Object.keys(bokkeumbap.data.materials2),
+              tablebokkeumbapvolume2: bokkeumbap.data.volume2,
+              tablebokkeumbapvolumeKeys2: Object.keys(bokkeumbap.data.volume2)
 			};
         }
     };
