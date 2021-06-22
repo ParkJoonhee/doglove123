@@ -9,19 +9,22 @@
           <nuxt-link to="/kongnamulbulgogi"><i class="far fa-file"></i>콩나물 불고기</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/eomukbokkeum"><i class="far fa-file"></i>어묵감자볶음</nuxt-link>
-        </li>
-        <li>
           <nuxt-link to="/tteokbokki"><i class="far fa-file"></i>떡볶이</nuxt-link>
         </li>
         <li>
           <nuxt-link to="/Eggfried-ricewithsmokeyflavor"><i class="far fa-file"></i>불맛 달걀볶음밥</nuxt-link>
         </li>
         <li>
+          <nuxt-link to="/beefandradishsoup"><i class="far fa-file"></i>소고기뭇국</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/eomukbokkeum"><i class="far fa-file"></i>어묵감자볶음</nuxt-link>
+        </li>
+        <li>
           <nuxt-link to="/hyeolchibokkeum"><i class="far fa-file"></i>멸치볶음</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/beefandradishsoup"><i class="far fa-file"></i>소고기뭇국</nuxt-link>
+          <nuxt-link to="/dubujorim"><i class="far fa-file"></i>두부조림</nuxt-link>
         </li>
         
       </ul>
