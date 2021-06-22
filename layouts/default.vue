@@ -21,7 +21,7 @@
           <nuxt-link to="/tteokbokki"><i class="far fa-file"></i>떡볶이</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/Eggfried-ricewithsmokeyflavor"><i class="far fa-file"></i>불맛 달걀볶음밥</nuxt-link>
+          <nuxt-link to="/bokkeumbap"><i class="far fa-file"></i>불맛 달걀볶음밥</nuxt-link>
         </li>
         <li>
           <nuxt-link to="/eomukbokkeum"><i class="far fa-file"></i>어묵감자볶음</nuxt-link>

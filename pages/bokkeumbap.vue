@@ -73,7 +73,7 @@
   import axios from 'axios';
   export default {
       async asyncData() {
-          const bokkeumbapMaterials = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/Eggfried-ricewithsmokeyflavorMaterials.json');
+          const bokkeumbapMaterials = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/bokkeumbapMaterials.json');
           //alert(Object.keys(eomukbokkeum));
           return {
             tablebokkeumbapMaterials: bokkeumbapMaterials.data.materials,
