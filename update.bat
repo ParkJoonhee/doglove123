@@ -1,4 +1,4 @@
 chcp 65001
 git add --all
-git commit -m "Modify eggfried-ricewithsmokeyflavor.vue"
+git commit -m "change name eggfried-ricewithsmokeyflavorMaterials.json"
 git push -u origin master
