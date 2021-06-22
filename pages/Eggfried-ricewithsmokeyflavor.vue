@@ -32,7 +32,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                      <template v-for="pos in tablebokkeumbapMaterialsKeys.length">
+                      <template v-for="pos in tablebokkeumbapmaterialsKeys.length">
                         <tr :key="pos">
                           <td>{{ tablebokkeumbapMaterials[pos - 1] }}</td>
                           <td>{{ tablebokkeumbapvolume[pos - 1] }}</td>
@@ -70,21 +70,21 @@
 </template>
 
 <script>
-    import axios from 'axios';
-    export default {
-        async asyncData() {
-            const bokkeumbapMaterials = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/eggfried-ricewithsmokeyflavorMaterials.json');
-            //alert(Object.keys(eomukbokkeum));
-            return {
-              tablebokkeumbapMaterials: bokkeumbapMaterials.data.materials,
-              tablebokkeumbapMaterialsKeys: Object.keys(bokkeumbapMaterials.data.materials),
-              tablebokkeumbapvolume: bokkeumbapMaterials.data.volume,
-              tablebokkeumbapvolumeKeys: Object.keys(bokkeumbapMaterials.data.volume),
-              tablebokkeumbapMaterials2: bokkeumbapMaterials.data.materials2,
-              tablebokkeumbapMaterialsKeys2: Object.keys(bokkeumbapMaterials.data.materials2),
-              tablebokkeumbapvolume2: bokkeumbapMaterials.data.volume2,
-              tablebokkeumbapvolumeKeys2: Object.keys(bokkeumbapMaterials.data.volume2)
-			      };
-        }
-    };
+  import axios from 'axios';
+  export default {
+      async asyncData() {
+          const bokkeumbapMaterials = await axios.get('https://raw.githubusercontent.com/ParkJoonhee/doglove123/master/static/Eggfried-ricewithsmokeyflavorMaterials.json');
+          //alert(Object.keys(eomukbokkeum));
+          return {
+            tablebokkeumbapMaterials: bokkeumbapMaterials.data.materials,
+            tablebokkeumbapmaterialsKeys: Object.keys(bokkeumbapMaterials.data.materials),
+            tablebokkeumbapvolume: bokkeumbapMaterials.data.volume,
+            tablebokkeumbapvolumeKeys: Object.keys(bokkeumbapMaterials.data.volume),
+            tablebokkeumbapmaterials2: bokkeumbapMaterials.data.materials2,
+            tablebokkeumbapmaterialsKeys2: Object.keys(bokkeumbapMaterials.data.materials2),
+            tablebokkeumbapvolume2: bokkeumbapMaterials.data.volume2,
+            tablebokkeumbapvolumeKeys2: Object.keys(bokkeumbapMaterials.data.volume2)
+          };
+      }
+  };
 </script>
