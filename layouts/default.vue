@@ -20,6 +20,9 @@
         <li>
           <nuxt-link to="/hyeolchibokkeum"><i class="far fa-file"></i>멸치볶음</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/beefandradishsoup"><i class="far fa-file"></i>소고기뭇국</nuxt-link>
+        </li>
         
       </ul>
     </nav>

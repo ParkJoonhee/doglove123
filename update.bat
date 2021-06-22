@@ -1,4 +1,4 @@
 chcp 65001
 git add --all
-git commit -m "[Bug] fix hyeolchibokkeumMaterials.json"
+git commit -m "add beefandradishsoup.vue"
 git push -u origin master
