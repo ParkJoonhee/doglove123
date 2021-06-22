@@ -126,12 +126,12 @@
             return {
               tablebeefandradishsoupMaterials: beefandradishsoupMaterials.data.materials,
               tablebeefandradishsoupMaterialsKeys: Object.keys(beefandradishsoupMaterials.data.materials),
-              tabletbeefandradishsoupvolume: beefandradishsoupMaterials.data.volume,
-              tabletbeefandradishsoupvolumeKeys: Object.keys(beefandradishsoupMaterials.data.volume),
-              tabletbeefandradishsoupMaterials2: beefandradishsoupMaterials.data.materials2,
-              tabletbeefandradishsoupMaterialsKeys2: Object.keys(beefandradishsoupMaterials.data.materials2),
-              tabletbeefandradishsoupvolume2: beefandradishsoupMaterials.data.volume2,
-              tabletbeefandradishsoupvolumeKeys2: Object.keys(beefandradishsoupMaterials.data.volume2)
+              tablebeefandradishsoupvolume: beefandradishsoupMaterials.data.volume,
+              tablebeefandradishsoupvolumeKeys: Object.keys(beefandradishsoupMaterials.data.volume),
+              tablebeefandradishsoupMaterials2: beefandradishsoupMaterials.data.materials2,
+              tablebeefandradishsoupMaterialsKeys2: Object.keys(beefandradishsoupMaterials.data.materials2),
+              tablebeefandradishsoupvolume2: beefandradishsoupMaterials.data.volume2,
+              tablebeefandradishsoupvolumeKeys2: Object.keys(beefandradishsoupMaterials.data.volume2)
 			};
         }
     };
